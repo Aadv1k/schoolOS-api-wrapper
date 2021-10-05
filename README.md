@@ -38,7 +38,8 @@ to get more than five assignments, note that the input can only be a multiple of
 ### Instructions on how to get the cookie
 <details>
  <summary></summary>
- Head on to [topprOs](https://ryangroup.toppr.school)
+ 
+ Head on to <a href="https://ryangroup.toppr.school" target="_blank">SchoolOS</a>
 
 press <kbd>ctrl+shift+i</kbd> to open the developer console, and head on over
 to the network tab
