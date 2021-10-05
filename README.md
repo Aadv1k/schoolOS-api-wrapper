@@ -35,8 +35,8 @@ Gets the assignments, by default gives out incomplete assignments, with a view s
 it you can set the ```complete=True```  to get the completed assignment and ```quantity=10```
 to get more than five assignments, note that the input can only be a multiple of 5, anything else wont work.
 
+### Instructions on how to get the cookie
 <details>
-<summary>Instructions on how to get the cookie</summary>
 
  Head on to [topprOs](https://ryangroup.toppr.school)
 
