@@ -1,4 +1,4 @@
-# Schoolos-wrapper
+# SchoolOS-api-wrapper
 
 An unofficial wrapper made for `https://ryangroup.toppr.school`, it might work with other sites based on schoolOS too
 
