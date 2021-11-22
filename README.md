@@ -5,7 +5,7 @@ An unofficial wrapper made for `https://ryangroup.toppr.school`, it might work w
 ## Installation
 
 ```bash
-git clone https://github.com/aadv1k/schoolos-wrapper.git`
+git clone https://github.com/aadv1k/schoolos-wrapper.git
 cd schoolos-wrapper
 pip install -r requirements.txt
 python main.py
