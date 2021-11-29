@@ -8,15 +8,16 @@ An unofficial wrapper made for `https://ryangroup.toppr.school`, it might work w
 git clone https://github.com/aadv1k/schoolos-wrapper.git
 cd schoolos-wrapper
 pip install -r requirements.txt
-python main.py
 ```
 
-This app is tested with python 3.6 (and above), I will add support for 3.1 (and above) in the future, currently a bit involved with exams and such. 
+Then, you can either import `schoolOS` or put your credentials in `example.py` and run it directly from there.
+
+**This app is tested with python 3.6 (and above), support for older versions of python will be added in future**
 
 ## Usage
 
 `get_timetable(start, end)`
-Gets the weekly classes, takes a start and an end date, both of which need to be in the format of `yyyy-mm-dd`  
+Gets the weekly classes, takes a start and an end date, both of which need to be in the format of `yyyy-mm-dd`
 and the date needs to be of Sunday-Saturday else it won't work.
 
 `get_assignments(complete=bool, quantity=int)`

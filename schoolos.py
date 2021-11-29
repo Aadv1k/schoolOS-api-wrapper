@@ -63,9 +63,11 @@ class schoolOS:
                 }
                 token_dict = json.dumps(token_str)
                 pickle.dump(token_dict, pkl)
+                pkl.close()
 
+            with open('jwt_token', 'rb') as pkl:
                 token_data = pickle.load(pkl)
-                token = json.loads(token)['token']
+                token = json.loads(token_data)['token']
                 pkl.close()
                 return token
 
@@ -92,11 +94,6 @@ class schoolOS:
             "origin": self.baseURL,
             "sec-ch-ua":
             'Chromium";v="94", "Microsoft Edge";v="94", ";Not A Brand";v="99"',
-            # "sec-ch-ua-mobile": "?0",
-            # "sec-ch-ua-platform": "Windows",
-            # "sec-fetch-dest": "empty",
-            # "sec-fetch-mode": "cors",
-            # "sec-fetch-site": "same-site",
             "user-agent": self.userAgent,
             "view-type": "student"
         }
