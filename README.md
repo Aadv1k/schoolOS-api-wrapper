@@ -11,7 +11,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-You need python 3.9 for this to work
+This app is tested with python 3.6 (and above), I will add support for 3.1 (and above) in the future, currently a bit involved with exams and such. 
 
 ## Usage
 
