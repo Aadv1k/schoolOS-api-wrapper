@@ -12,7 +12,7 @@ pip install -r requirements.txt
 
 Then, you can either import `schoolOS` or put your credentials in `example.py` and run it directly from there.
 
-**This app is tested with python 3.6 (and above), support for older versions of python will be added in future**
+**This app is tested with python 3.6 (and above)**
 
 ## Usage
 
