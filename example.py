@@ -1,4 +1,4 @@
-import schoolOS
+import schoolos
 
 # replace username and password with your credentials
 so = schoolOS.schoolOS("username", "password")
