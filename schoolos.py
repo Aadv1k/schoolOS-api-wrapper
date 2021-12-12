@@ -15,6 +15,7 @@ class schoolOS:
         """Returns an auth cookie called `admin_sessionid`"""
         headers = {
             'User-Agent': self.userAgent,
+            "origin": "https://ryangroup.toppr.school",
         }
 
         pl = {'ecode': self.ecode, 'password': self.pwd}
