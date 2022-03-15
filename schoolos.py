@@ -115,6 +115,7 @@ class schoolOS:
             "authorization": jwt_token,
             "origin": self.baseURL,
             "user-agent": self.userAgent,
+            "view-type": "student"
         }
 
         tt_request = req.get(tt_url, headers=headers).json()
@@ -132,8 +133,10 @@ class schoolOS:
         """
         jwt_token = self.get_token()
         headers = {
-            'user-agent': self.userAgent,
-            'Authorization': jwt_token,
+            "authorization": jwt_token,
+            "origin": self.baseURL,
+            "user-agent": self.userAgent,
+            "view-type": "student"
         }
 
         if quantity:
