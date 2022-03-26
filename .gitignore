@@ -1,3 +1,4 @@
 env/
 __pycache__/
 jwt_token
+examples/__pycache__
